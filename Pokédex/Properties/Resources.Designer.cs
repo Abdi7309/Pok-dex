@@ -63,6 +63,16 @@ namespace Pokédex.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_2 {
+            get {
+                object obj = ResourceManager.GetObject("1-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1200px_Un1_svg {
             get {
                 object obj = ResourceManager.GetObject("1200px-Un1.svg", resourceCulture);
@@ -86,6 +96,16 @@ namespace Pokédex.Properties {
         internal static System.Drawing.Bitmap _1200px_Un11 {
             get {
                 object obj = ResourceManager.GetObject("1200px-Un11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2_2 {
+            get {
+                object obj = ResourceManager.GetObject("2-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +246,26 @@ namespace Pokédex.Properties {
         internal static System.Drawing.Bitmap MicrosoftTeams_image__23_ {
             get {
                 object obj = ResourceManager.GetObject("MicrosoftTeams-image (23)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__31_ {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (31)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image__31_1 {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image (31)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +446,26 @@ namespace Pokédex.Properties {
         internal static System.Drawing.Bitmap Screenshot_2023_02_15_111735 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2023-02-15 111735", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_02_15_125736 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-02-15 125736", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_02_15_130833 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-02-15 130833", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

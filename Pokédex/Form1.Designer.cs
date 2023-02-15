@@ -28,18 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -48,42 +44,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
-            this.pictureBox12.Image = global::Pokédex.Properties.Resources.free_minus_icon_3108_thumb11;
-            this.pictureBox12.Location = new System.Drawing.Point(396, 402);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(18, 21);
-            this.pictureBox12.TabIndex = 60;
-            this.pictureBox12.TabStop = false;
-            // 
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.White;
-            this.pictureBox22.Image = global::Pokédex.Properties.Resources.Cinq_svg1;
-            this.pictureBox22.Location = new System.Drawing.Point(411, 402);
+            this.pictureBox22.Image = global::Pokédex.Properties.Resources._1_2;
+            this.pictureBox22.Location = new System.Drawing.Point(382, 402);
             this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(18, 21);
+            this.pictureBox22.Size = new System.Drawing.Size(47, 21);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 59;
             this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.Color.White;
-            this.pictureBox17.Image = global::Pokédex.Properties.Resources._1200px_Un1_svg1;
-            this.pictureBox17.Location = new System.Drawing.Point(381, 402);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(18, 21);
-            this.pictureBox17.TabIndex = 58;
-            this.pictureBox17.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackColor = System.Drawing.Color.Black;
             this.pictureBox4.Image = global::Pokédex.Properties.Resources.MicrosoftTeams_image__36_23;
             this.pictureBox4.Location = new System.Drawing.Point(426, 402);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -91,17 +67,19 @@
             this.pictureBox4.Size = new System.Drawing.Size(18, 21);
             this.pictureBox4.TabIndex = 57;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BackColor = System.Drawing.Color.Black;
             this.pictureBox3.Image = global::Pokédex.Properties.Resources.MicrosoftTeams_image__37_14;
-            this.pictureBox3.Location = new System.Drawing.Point(366, 402);
+            this.pictureBox3.Location = new System.Drawing.Point(364, 402);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(18, 21);
             this.pictureBox3.TabIndex = 56;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -161,18 +139,14 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -185,9 +159,7 @@
         }
 
         #endregion
-        private PictureBox pictureBox12;
         private PictureBox pictureBox22;
-        private PictureBox pictureBox17;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;

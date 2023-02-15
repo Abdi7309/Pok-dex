@@ -45,7 +45,7 @@ namespace Pokédex
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //hier komt code
+            
         }
     }
 }

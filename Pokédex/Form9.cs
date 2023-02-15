@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace Pokédex
 {
-    public partial class Form5 : Form
+    public partial class Form9 : Form
     {
-        public Form5()
+        public Form9()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox5_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            var pokemon1 = new Form4();
-            pokemon1.Show();
+
         }
     }
 }
