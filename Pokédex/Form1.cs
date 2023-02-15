@@ -22,19 +22,16 @@ namespace Pokédex
 
         }
 
-        private void pictureBox28_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            var pokemon1 = new Form2();
+            pokemon1.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            var pokemon1 = new Form4();
+            pokemon1.Show();
         }
     }
 }
