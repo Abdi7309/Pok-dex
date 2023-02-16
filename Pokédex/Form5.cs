@@ -27,5 +27,10 @@ namespace Pokédex
             var pokemon1 = new Form4();
             pokemon1.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

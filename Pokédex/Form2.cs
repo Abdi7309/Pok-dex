@@ -47,5 +47,11 @@ namespace Pokédex
         {
             
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+                        var pokemon1 = new Form3();
+            pokemon1.Show();
+        }
     }
 }

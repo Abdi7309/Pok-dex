@@ -58,9 +58,9 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.White;
             this.pictureBox5.Image = global::Pokédex.Properties.Resources.Screenshot_2023_02_15_101623;
-            this.pictureBox5.Location = new System.Drawing.Point(219, 270);
+            this.pictureBox5.Location = new System.Drawing.Point(213, 270);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(98, 29);
+            this.pictureBox5.Size = new System.Drawing.Size(98, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 78;
             this.pictureBox5.TabStop = false;
@@ -106,13 +106,14 @@
             this.button1.Text = "Stats";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Pokédex.Properties.Resources.Screenshot_2023_02_15_111735;
-            this.pictureBox1.Location = new System.Drawing.Point(219, 337);
+            this.pictureBox1.Location = new System.Drawing.Point(213, 340);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 26);
+            this.pictureBox1.Size = new System.Drawing.Size(85, 23);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 80;
             this.pictureBox1.TabStop = false;

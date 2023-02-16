@@ -46,9 +46,10 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.pictureBox6.Image = global::Pokédex.Properties.Resources.MicrosoftTeams_image__31_1;
-            this.pictureBox6.Location = new System.Drawing.Point(294, 27);
+            this.pictureBox6.Location = new System.Drawing.Point(336, 36);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(252, 199);
+            this.pictureBox6.Size = new System.Drawing.Size(288, 265);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 79;
             this.pictureBox6.TabStop = false;
@@ -56,9 +57,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 132);
+            this.pictureBox4.Location = new System.Drawing.Point(0, 176);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(164, 80);
+            this.pictureBox4.Size = new System.Drawing.Size(187, 107);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 77;
             this.pictureBox4.TabStop = false;
@@ -66,9 +68,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 36);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(164, 81);
+            this.pictureBox3.Size = new System.Drawing.Size(187, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 76;
             this.pictureBox3.TabStop = false;
@@ -76,18 +79,20 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(187, 244);
+            this.pictureBox2.Location = new System.Drawing.Point(214, 325);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(520, 130);
+            this.pictureBox2.Size = new System.Drawing.Size(594, 173);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 75;
             this.pictureBox2.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(668, 27);
+            this.button1.Location = new System.Drawing.Point(763, 36);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 75);
+            this.button1.Size = new System.Drawing.Size(146, 100);
             this.button1.TabIndex = 74;
             this.button1.Text = "Stats";
             this.button1.UseVisualStyleBackColor = true;
@@ -97,25 +102,28 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Pokédex.Properties.Resources.Screenshot_2023_02_15_130833;
-            this.pictureBox1.Location = new System.Drawing.Point(215, 244);
+            this.pictureBox1.Location = new System.Drawing.Point(246, 325);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(73, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(83, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 80;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form9
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(834, 386);
+            this.ClientSize = new System.Drawing.Size(953, 515);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form9";
             this.Text = "Form9";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
