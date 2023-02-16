@@ -17,10 +17,19 @@ namespace Pokédex
             InitializeComponent();
         }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new Form3();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+
+        }
+
         private void Form2_Load(object sender, EventArgs e)
         {
-            var pokemon1 = new Form3();
-            pokemon1.Show();
+
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -48,10 +57,9 @@ namespace Pokédex
             
         }
 
-        private void pictureBox5_Click(object sender, EventArgs e)
+        private void pictureBox4_Click_1(object sender, EventArgs e)
         {
-                        var pokemon1 = new Form3();
-            pokemon1.Show();
+
         }
     }
 }

@@ -44,7 +44,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Pokédex.Properties.Resources.Screenshot_2023_02_15_095127;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 75);
+            this.pictureBox3.Location = new System.Drawing.Point(-1, 75);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(187, 108);
@@ -55,13 +55,14 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Pokédex.Properties.Resources.Screenshot_2023_02_15_095236;
-            this.pictureBox4.Location = new System.Drawing.Point(15, 207);
+            this.pictureBox4.Location = new System.Drawing.Point(-1, 207);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(187, 107);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click_1);
             // 
             // pictureBox1
             // 
@@ -123,6 +124,8 @@
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Shown += new System.EventHandler(this.Form2_Load);
+            this.VisibleChanged += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

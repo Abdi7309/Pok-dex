@@ -29,8 +29,11 @@ namespace Pokédex
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            var pokemon1 = new Form9();
-            pokemon1.Show();
+            this.Hide();
+            var form2 = new Form9();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+
         }
     }
 }
